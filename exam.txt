@@ -1,0 +1,8 @@
+Nous souhaitons développer une application web capable de calculer le factoriel d'un nombre ainsi que la 
+somme de Gauss (la somme de Gauss pour N étant définie comme 1+2+…+N). 
+Les consignes sont les suivantes : 
+- Aucune validation côté client n'est demandée.
+- Une vérification côté serveur est obligatoire (type entier).
+- Toutes les opérations de calcul doivent être effectuées côté serveur ; si le calcul a déjà été effectué auparavant, ne le refaites pas.
+- Les résultats de tous les calculs réalisés doivent être stockés côté serveur et 
+récupérés une fois la page chargée.

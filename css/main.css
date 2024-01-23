@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(92, 203, 203);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+main{
+    display: flex;
+    padding: 20px;
+}
+main .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+main .form input{
+    padding: 10px;
+}
+main .form button{
+    padding: 10px 20px;
+    border: 0;
+}
+
+main section{
+    flex: 1;
+}
+main section li{
+    display: block;
+}
+.gaussSection, .factorilleSection{
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+.gaussSection li, .factorilleSection li{
+    display: flex;
+    justify-content: center;
+    gap:10px
+}
+.resultat{
+    color: blue;
+}
+.number{
+    color: red;
+}
